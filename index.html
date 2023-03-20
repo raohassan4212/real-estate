@@ -1,13 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Estate</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <nav class="navbar navbar-expand-lg sticky-top px-5 bg-white">
+        <div class="container-fluid">
+          <img src="./assets/images/GraanaLogo.svg" alt="logo" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">BUY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SELL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">RENT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">INVEST</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">WATED</a>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="btn btn-outline-secondary">
+                    Sign In
+                  </button>
+                </li>
+              </ul>
+            </span>
+          </div>
+        </div>
+      </nav>
+      <!-- Banner -->
+      <div class="banner-container">
+        <div class="banner-content">
+          <h1>
+            Buy or rent vetted properties at the <br />
+            most trusted online real estate portal
+          </h1>
+          <div class="btn-container">
+            <div>
+              <button type="button" class="btn btn-light">BUY</button>
+              <button type="button" class="btn btn-light">RENT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Interest -->
+      <div class="interest-container">
+        <div class="invest">
+          <div>
+            <img src="./assets/images/invest.webp" alt="building" />
+            <h1>Invest</h1>
+            <p>
+              Invest in fully legal Imarat projects. Our “Ownerships &
+              Approvals, Demand & Delivery” approach ensures fantastic returns
+              with full risk mitigation
+            </p>
+            <button type="button" class="btn btn-dark">INVEST NOW</button>
+          </div>
+        </div>
+        <div class="wanted">
+          <div>
+            <img src="./assets/images/3ClicksLogo.webp" alt="building" />
+            <h1>Wanted</h1>
+            <p>
+              Invest in fully legal Imarat projects. Our “Ownerships &
+              Approvals, Demand & Delivery” approach ensures fantastic returns
+              with full risk mitigation
+            </p>
+            <button type="button" class="btn btn-dark">WANTED NOW</button>
+          </div>
+        </div>
+      </div>
+      <!-- Card -->
+      <div class="card-container">
+        <div class="card" style="width: 18rem">
+          <img src="./assets/images/img1.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">DHA Phase 2</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./assets/images/img2.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">F-17</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./assets/images/img3.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Bahria Enclave</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./assets/images/img4.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Saan Gardan</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./assets/images/img5.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">TopCity-1</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./assets/images/img6.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Bahria Town Phase 7</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./assets/images/img7.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Chakri Road</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./assets/images/img8.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">DHA Phase 5</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <!-- Happening -->
+      <div class="happening-box">
+        <h1>Happenings</h1>
+        <p>
+          Navigate through the landscape of some of our most well-received
+          campaigns!
+        </p>
+        <div class="happen-flex">
+          <div>
+            <img src="./assets/images/roshan.svg" alt="roshan" />
+            <p>
+              Roshan Apna Ghar is an initiative led by the State Bank of
+              Pakistan (SBP) that aims to ease the Pakistani diaspora around the
+              world. The scheme is available to all the customers of Roshan
+              Digital Account (RDA)
+            </p>
+            <span>READ MORE</span>
+          </div>
+          <div>
+            <img src="./assets/images/graanaCare.svg" alt="roshan" />
+            <p>
+              Roshan Apna Ghar is an initiative led by the State Bank of
+              Pakistan (SBP) that aims to ease the Pakistani diaspora around the
+              world. The scheme is available to all the customers of Roshan
+              Digital Account (RDA)
+            </p>
+            <span>READ MORE</span>
+          </div>
+          <div>
+            <img src="./assets/images/esg.svg" alt="roshan" />
+            <p>
+              Roshan Apna Ghar is an initiative led by the State Bank of
+              Pakistan (SBP) that aims to ease the Pakistani diaspora around the
+              world. The scheme is available to all the customers of Roshan
+              Digital Account (RDA)
+            </p>
+            <span>READ MORE</span>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="footer">Copyright 2023 Graana. All rights reserved</div>
+    </div>
+  </body>
 </html>

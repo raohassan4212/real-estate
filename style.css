@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Urbanist:ital,wght@0,700;0,800;1,600;1,700&display=swap");
+:root {
+  --dark-: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.banner-container {
+  height: 70vh;
+  background-image: url(./assets/images/HeaderImage.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content > h1 {
+  color: white;
+  font-family: "Poppins";
+  font-size: 34px;
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container button {
+  min-width: 64px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #37474f;
+  font-family: "Poppins";
+  padding: 6px 36px !important;
+  margin: 0 5px;
+}
+
+.interest-container {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.invest,
+.wanted {
+  width: 435px;
+  height: 460px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.invest img,
+h1,
+p,
+.wanted img,
+h1,
+p {
+  margin-bottom: 10px;
+}
+
+.invest img,
+.wanted img {
+  width: 12vw;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 10px 45px;
+}
+
+.card {
+  margin-bottom: 15px;
+}
+
+.happening-box {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 12px !important;
+  box-sizing: border-box;
+}
+
+.happen-flex {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 0;
+  text-align: start;
+}
+
+.happen-flex > div {
+  width: 20%;
+}
+
+.happen-flex p {
+  margin: 30px 0;
+}
+
+.happen-flex span {
+  color: #e85451;
+}
+
+.footer {
+    padding: 10px 0;
+    background-color: #e85451;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+}
